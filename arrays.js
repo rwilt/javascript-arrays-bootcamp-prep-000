@@ -23,4 +23,5 @@ console.log(array)
 
 function removeElementFromBeginningOfArray(array) {
   array.slice(1)
+  console.log(array)
 }
