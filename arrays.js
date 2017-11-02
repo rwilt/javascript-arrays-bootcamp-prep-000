@@ -37,6 +37,5 @@ function removeElementFromEndOfArray(array){
 }
 
 function accessElementInArray(array, index){
-  array[index]
-  console.log(array[index])
+  console.log(array[index]);
 }
