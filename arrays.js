@@ -38,5 +38,5 @@ function removeElementFromEndOfArray(array){
 
 function accessElementInArray(array, index){
   array[index]
-  console.log(array)
+  console.log(array[index])
 }
