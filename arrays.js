@@ -18,22 +18,22 @@ function destructivelyAddElementToEndOfArray(array, element){
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
 array.shift()
-console.log(array)
+return array
 }
 
 function removeElementFromBeginningOfArray(array) {
   array.slice(1)
-  console.log(array)
+  return array
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop()
-  console.log(array)
+  return array
 }
 
 function removeElementFromEndOfArray(array){
   array.slice(0,array.length -1)
-  console.log(array)
+  return array
 }
 
 function accessElementInArray(array) {
