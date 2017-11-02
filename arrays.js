@@ -4,5 +4,4 @@ function addElementToBeginningOfArray(array, element) {
   var array = ["hello", "there"]
   var element = "bye"
   [element, ...array]
-  console.log(array)
 }
