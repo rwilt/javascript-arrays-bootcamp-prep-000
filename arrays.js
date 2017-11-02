@@ -35,3 +35,6 @@ function removeElementFromEndOfArray(array){
   array.slice(0,array.length -1)
   console.log(array)
 }
+
+function accessElementInArray(array, index)
+array([index])
